@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: products
+
+  datasource:
+    url: jdbc:postgresql://localhost:6969/productdb
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: postgres
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
